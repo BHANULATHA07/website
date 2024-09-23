@@ -159,6 +159,13 @@ card1 img:hover{
   filter: grayscale(1);
   transform:scale(1.03);
 }
+.card1{
+  transition:all 0.3s;
+}
+.card1:hover{
+  transform: scale(1.15);
+}
+
 .btn-primary:hover{
   background-color: black;
 }
